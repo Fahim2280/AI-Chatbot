@@ -158,12 +158,16 @@ namespace AI_Chatbot.Services
             if (message == null)
                 return null;
 
+            if (message.Sender == "Bot")
+                throw new InvalidOperationException("You cannot edit bot messages.");
+
             message.Message = dto.Message;
-            message.Timestamp = DateTime.UtcNow; // Update timestamp to reflect edit time
+            message.Timestamp = DateTime.UtcNow; // Reflect the edit time
 
             await _context.SaveChangesAsync();
             return message;
         }
+
 
         public async Task<bool> SoftDeleteMessageAsync(int userId, int messageId)
         {
@@ -173,12 +177,16 @@ namespace AI_Chatbot.Services
             if (message == null)
                 return false;
 
+            if (message.Sender == "Bot")
+                throw new InvalidOperationException("Bot messages cannot be deleted.");
+
             message.IsDeleted = true;
-            message.Timestamp = DateTime.UtcNow; // Update timestamp to reflect deletion time
+            message.Timestamp = DateTime.UtcNow;
 
             await _context.SaveChangesAsync();
             return true;
         }
+
 
         public async Task<ChatMessage?> ApproveMessageAsync(int messageId, bool isApproved)
         {
@@ -188,11 +196,15 @@ namespace AI_Chatbot.Services
             if (message == null)
                 return null;
 
+            if (message.Sender == "Bot")
+                throw new InvalidOperationException("Bot messages cannot be approved or disapproved.");
+
             message.IsApproved = isApproved;
-            message.Timestamp = DateTime.UtcNow; // Update timestamp to reflect approval change
+            message.Timestamp = DateTime.UtcNow;
 
             await _context.SaveChangesAsync();
             return message;
         }
+
     }
 }
