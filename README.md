@@ -49,7 +49,7 @@ AI_Chatbot/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-chatbot.git
+git clone https://github.com/Fahim2280/ai-chatbot.git
 cd ai-chatbot
 ```
 
