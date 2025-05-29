@@ -141,7 +141,7 @@ For more information on Tavily AI, visit: [https://www.tavily.com](https://www.t
 
 ## 📄 License
 
-MIT License © 2025 Your Name
+MIT License © 2025 Md Fahim Alam
 
 ---
 
