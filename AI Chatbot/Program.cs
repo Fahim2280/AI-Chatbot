@@ -1,7 +1,7 @@
+using AI_Chatbot.Interfaces;
 using AI_Chatbot.Models;
 using AI_Chatbot.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -17,23 +17,47 @@ namespace AI_Chatbot
             // Add services to the container
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new() { Title = "AI Chatbot API", Version = "v1" });
+
+                options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+                {
+                    Name = "Authorization",
+                    Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+                    Description = "Enter 'Bearer' followed by your valid JWT token.\nExample: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6..."
+                });
+
+                options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+            });
+
 
             // Add DbContext
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            // Add Identity
-           
+            // Add HttpClient BEFORE building
+            builder.Services.AddHttpClient();
 
-            // Add JWT Authentication
-            builder.Services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-            .AddJwtBearer(options =>
-            {
+            // Add Authentication (JWT)
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options => {
                 var key = Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Secret"]);
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
@@ -45,15 +69,15 @@ namespace AI_Chatbot
                     ValidAudience = builder.Configuration["JwtSettings:Audience"],
                     IssuerSigningKey = new SymmetricSecurityKey(key)
                 };
-            });
+               });
 
             // Add application services
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<IChatService, ChatService>();
 
-            // Build the app AFTER service registration
             var app = builder.Build();
 
-            // Configure the middleware pipeline
+            // Configure the HTTP request pipeline
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -64,6 +88,7 @@ namespace AI_Chatbot
             app.UseAuthorization();
 
             app.MapControllers();
+
             app.Run();
         }
     }

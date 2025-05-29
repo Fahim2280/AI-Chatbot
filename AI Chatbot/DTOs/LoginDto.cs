@@ -1,8 +1,14 @@
-﻿namespace AI_Chatbot.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AI_Chatbot.DTOs
 {
     public class LoginDto
     {
-        public required string Email { get; set; }
-        public required string Password { get; set; }
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; } = string.Empty;
+
+        [Required]
+        public string Password { get; set; } = string.Empty;
     }
 }

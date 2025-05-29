@@ -4,6 +4,7 @@ using AI_Chatbot.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AI_Chatbot.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250529105815_chat1")]
+    partial class chat1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -42,13 +45,11 @@ namespace AI_Chatbot.Migrations
 
                     b.Property<string>("Sender")
                         .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SessionId")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Timestamp")
                         .HasColumnType("datetime2");
@@ -57,8 +58,6 @@ namespace AI_Chatbot.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("ChatMessages");
                 });
@@ -79,8 +78,7 @@ namespace AI_Chatbot.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SessionId")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Timestamp")
                         .HasColumnType("datetime2");
@@ -89,10 +87,6 @@ namespace AI_Chatbot.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ChatMessageId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("ChatResponses");
                 });
@@ -112,55 +106,15 @@ namespace AI_Chatbot.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
 
                     b.ToTable("Register");
-                });
-
-            modelBuilder.Entity("AI_Chatbot.Models.ChatMessage", b =>
-                {
-                    b.HasOne("AI_Chatbot.Models.Register", "User")
-                        .WithMany("ChatMessages")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("AI_Chatbot.Models.ChatRespons", b =>
-                {
-                    b.HasOne("AI_Chatbot.Models.ChatMessage", "ChatMessage")
-                        .WithMany("ChatResponses")
-                        .HasForeignKey("ChatMessageId");
-
-                    b.HasOne("AI_Chatbot.Models.Register", "User")
-                        .WithMany("ChatResponses")
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("ChatMessage");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("AI_Chatbot.Models.ChatMessage", b =>
-                {
-                    b.Navigation("ChatResponses");
-                });
-
-            modelBuilder.Entity("AI_Chatbot.Models.Register", b =>
-                {
-                    b.Navigation("ChatMessages");
-
-                    b.Navigation("ChatResponses");
                 });
 #pragma warning restore 612, 618
         }

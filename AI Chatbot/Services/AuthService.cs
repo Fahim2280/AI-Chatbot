@@ -9,6 +9,7 @@ using System.Security.Claims;
 using System.Text;
 using Org.BouncyCastle.Crypto.Generators;
 using BCrypt.Net;
+using AI_Chatbot.Interfaces;
 
 namespace AI_Chatbot.Services
 {
@@ -31,7 +32,7 @@ namespace AI_Chatbot.Services
 
             var user = new Register 
             {
-                ID = 0, // Assuming ID is auto-incremented by the database
+                ID = 0, 
                 Username = dto.Username,
                 Email = dto.Email,
                 Password = BCrypt.Net.BCrypt.HashPassword(dto.Password) // Hash password
@@ -50,6 +51,11 @@ namespace AI_Chatbot.Services
                 throw new UnauthorizedAccessException("Invalid credentials.");
 
             return GenerateJwtToken(user.Email, user.ID);
+        }
+
+        public async Task LogoutAsync()
+        {
+            await Task.CompletedTask;
         }
 
         private string GenerateJwtToken(string email, int userId)

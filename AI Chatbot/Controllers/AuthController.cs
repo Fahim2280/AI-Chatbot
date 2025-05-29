@@ -1,5 +1,5 @@
 ﻿using AI_Chatbot.DTOs;
-using AI_Chatbot.Services;
+using AI_Chatbot.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AI_Chatbot.Controllers
@@ -40,6 +40,20 @@ namespace AI_Chatbot.Controllers
             catch (UnauthorizedAccessException ex)
             {
                 return Unauthorized(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "An unexpected error occurred.", error = ex.Message });
+            }
+        }
+
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            try
+            {
+                await _authService.LogoutAsync();
+                return Ok(new { message = "Logged out successfully." });
             }
             catch (Exception ex)
             {
