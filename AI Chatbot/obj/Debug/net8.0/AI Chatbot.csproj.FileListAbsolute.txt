@@ -143,3 +143,8 @@ D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.
 D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net8.0\BCrypt.Net-Next.dll
 D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net8.0\AI Chatbot.staticwebassets.runtime.json
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net8.0\AI Chatbot.RazorAssemblyInfo.cache
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net8.0\AI Chatbot.RazorAssemblyInfo.cs
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net8.0\scopedcss\projectbundle\AI Chatbot.bundle.scp.css

@@ -1,0 +1,99 @@
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\appsettings.Development.json
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\appsettings.json
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\AI Chatbot.staticwebassets.runtime.json
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\AI Chatbot.staticwebassets.endpoints.json
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\AI Chatbot.exe
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\AI Chatbot.deps.json
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\AI Chatbot.runtimeconfig.json
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\AI Chatbot.dll
+D:\GitHub\ai-chatbot\AI Chatbot\bin\Debug\net9.0\AI Chatbot.pdb
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.AssemblyInfoInputs.cache
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.AssemblyInfo.cs
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.csproj.CoreCompileInputs.cache
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.RazorAssemblyInfo.cache
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.RazorAssemblyInfo.cs
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.sourcelink.json
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\scopedcss\bundle\AI Chatbot.styles.css
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\scopedcss\projectbundle\AI Chatbot.bundle.scp.css
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\om6o2xusn4-b9sayid5wm.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\2lf30odw1q-61n19gt1b8.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\gm7f3h2wae-xtxxf3hu2r.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\6k8pwehvn6-bqjiyaj88i.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\vjd39zl525-c2jlpeoesf.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\giymqo1qqk-erw9l3u2r3.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\beq2vf5wnk-aexeepp0ev.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\d0ydbssu72-d7shbmvgxk.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\rrifmvkr2c-ausgxo2sd3.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\5k45jqg045-k8d9w2qqmf.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\6z97o19v81-cosvhxvwiu.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\qrnwlqblqy-ub07r2b239.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\lkltryytsd-fvhpjtyr6v.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\agcrce6xae-b7pk76d08c.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\x71umb3tin-fsbi9cje9m.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\3zy5zl6vt8-rzd6atqjts.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\d8mkpw16j4-ee0r1s7dh0.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\mijhqktsyk-dxx9fxp4il.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\oxwvlaguzo-jd9uben2k1.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\5wa367wgbp-khv3u5hwcm.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\nzxi6tgqs8-r4e9w2rdcm.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\s4l4crrebi-lcd1t2u6c8.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\kwdblk4r4j-c2oey78nd0.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\tmmd76ypyz-tdbxkamptv.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\hz5hu5q2hv-j5mq2jizvt.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\dh4xospd6y-06098lyss8.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\d1e5aha76u-nvvlpmu67g.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\u49uwqdtjf-s35ty4nyc5.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\lro7lrjnqj-pj5nd1wqec.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\j3rvmdi8v6-46ein0sx1k.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\inr6rgw066-v0zj4ognzu.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\u9mmsrjmjp-37tfw0ft22.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\u05s0g7bpi-hrwsygsryq.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\g9a41ngg06-pk9g2wxc8p.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\7peqww1tny-ft3s53vfgj.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\sh2inv5jq9-6cfz1n2cew.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\8noq2eco8p-6pdc2jztkx.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\kh41omtgg5-493y06b0oq.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\6mcks9mhk2-iovd86k7lj.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\1mhg99wiuk-vr1egmr9el.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\p2dgleedz9-kbrnm935zg.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\asrntz37xc-jj8uyg4cgr.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\x8xlbvcmsl-y7v9cxd14o.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\r0xdmoywjm-notf2xhcfb.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\fse0mlnm7z-h1s4sie4z3.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\yu4g9effv4-63fj8s7r0e.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\6bqditiv6p-0j3bgjxly4.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\g4ickpjiqx-47otxtyo56.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\k4d36rxn6r-4v8eqarkd7.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\nkl87bwlbe-356vix0kms.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\byaxrq0f40-83jwlth58m.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\3o1o1fsuot-mrlpezrjn3.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\q1jyivzk5y-lzl9nlhx6b.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\tpspufdtfp-ag7o75518u.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\x62rkq0909-x0q3zqp4vz.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\oc8mgxn6x8-0i3buxo5is.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\9gfzq9u0rm-o1o13a6vjx.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\i3rh6y2omg-ttgo8qnofa.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\sphlsszthj-2z0ns9nrw6.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\3u83g867or-muycvpuwrr.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\1sgkihpdk2-87fc7y1x7t.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\62ppi5c82s-mlv21k5csn.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\jj1mnx4whq-u51pk8bqtv.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\compressed\jy9h6yjg5w-u51pk8bqtv.gz
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets.build.json
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets.development.json
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets\msbuild.AI Chatbot.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets\msbuild.AI Chatbot.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets\msbuild.build.AI Chatbot.props
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.AI Chatbot.props
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.AI Chatbot.props
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets.pack.json
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.dll
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\refint\AI Chatbot.dll
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.pdb
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\AI Chatbot.genruntimeconfig.cache
+D:\GitHub\ai-chatbot\AI Chatbot\obj\Debug\net9.0\ref\AI Chatbot.dll

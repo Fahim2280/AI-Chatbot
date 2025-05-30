@@ -42,7 +42,7 @@ namespace AI_Chatbot.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> EditMessage(int id, EditMessageDto dto)
+        public async Task<IActionResult> EditMessage(int id, [FromBody] EditMessageDto dto)
         {
             try
             {
@@ -80,7 +80,7 @@ namespace AI_Chatbot.Controllers
         }
 
         [HttpPatch("{id}/approve")]
-        public async Task<IActionResult> ApproveMessage(int id, ApproveMessageDto dto)
+        public async Task<IActionResult> ApproveMessage(int id, [FromBody] ApproveMessageDto dto)
         {
             try
             {
@@ -96,5 +96,9 @@ namespace AI_Chatbot.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+       
     }
+
+
 }
