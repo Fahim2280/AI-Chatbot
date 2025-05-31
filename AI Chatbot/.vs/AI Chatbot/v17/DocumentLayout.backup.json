@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub\\ai-chatbot\\AI Chatbot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C006A2C-FC81-4C08-962C-7E5805245909}|AI Chatbot.csproj|d:\\github\\ai-chatbot\\ai chatbot\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C006A2C-FC81-4C08-962C-7E5805245909}|AI Chatbot.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C006A2C-FC81-4C08-962C-7E5805245909}|AI Chatbot.csproj|d:\\github\\ai-chatbot\\ai chatbot\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C006A2C-FC81-4C08-962C-7E5805245909}|AI Chatbot.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C006A2C-FC81-4C08-962C-7E5805245909}|AI Chatbot.csproj|d:\\github\\ai-chatbot\\ai chatbot\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C006A2C-FC81-4C08-962C-7E5805245909}|AI Chatbot.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C006A2C-FC81-4C08-962C-7E5805245909}|AI Chatbot.csproj|d:\\github\\ai-chatbot\\ai chatbot\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\GitHub\\ai-chatbot\\AI Chatbot\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -183,13 +183,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ChatController.cs",
               "DocumentMoniker": "D:\\GitHub\\ai-chatbot\\AI Chatbot\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
-              "ToolTip": "D:\\GitHub\\ai-chatbot\\AI Chatbot\\Controllers\\ChatController.cs*",
-              "RelativeToolTip": "Controllers\\ChatController.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwFAAAAAIAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\ai-chatbot\\AI Chatbot\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T07:48:51.681Z",
               "EditorCaption": ""

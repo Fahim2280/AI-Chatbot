@@ -90,7 +90,6 @@ Example:
 ```bash
 POST /api/auth/register
 POST /api/auth/login
-Authorization: Bearer <token>
 ```
 
 > 📝 **Note:** After logging in and receiving your JWT token, make sure to **authorize the token** before accessing any protected API endpoints.  
@@ -121,7 +120,7 @@ Real-time communication support using **SignalR** will enable live chat and inst
 ### 💬 Chat (`/api/chat`)
 
 - `POST /send` – Send a chat message
-- `GET /history?sessionId=...` – Get session chat history
+- `GET /history` – Get session chat history
 - `GET /responses` – Get all AI responses
 - `PUT /{id}` – Edit message
 - `DELETE /{id}` – Soft delete message
