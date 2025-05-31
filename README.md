@@ -1,4 +1,3 @@
-
 # 🧠 AI Chatbot – Real-Time Chat with Tavily AI
 
 A production-ready chatbot platform built with **ASP.NET Core 8**, **SignalR**, **Entity Framework Core (Code-First)**, and **Tavily AI** for real-time AI-powered conversations.
@@ -87,11 +86,21 @@ Visit: [https://localhost:5001/swagger](https://localhost:5001/swagger) for API 
 Endpoints are secured using **JWT Bearer tokens**. Register or log in to receive a token.
 
 Example:
+
 ```bash
 POST /api/auth/register
 POST /api/auth/login
 Authorization: Bearer <token>
 ```
+
+> 📝 **Note:** After logging in and receiving your JWT token, make sure to **authorize the token** before accessing any protected API endpoints.  
+> You can do this by setting the `Authorization` header manually:
+
+```http
+Authorization: Bearer <your_token_here>
+```
+
+Or, in **Swagger UI**, click the **"Authorize"** button at the top, paste your token, and hit "Authorize" to test secured endpoints easily.
 
 ---
 
@@ -104,11 +113,13 @@ Real-time communication support using **SignalR** will enable live chat and inst
 ## 📬 API Endpoints Overview
 
 ### 🔑 Auth (`/api/auth`)
+
 - `POST /register` – Register a new user
 - `POST /login` – Authenticate user
 - `POST /logout` – Logout session
 
 ### 💬 Chat (`/api/chat`)
+
 - `POST /send` – Send a chat message
 - `GET /history?sessionId=...` – Get session chat history
 - `GET /responses` – Get all AI responses
@@ -148,11 +159,13 @@ MIT License © 2025 Md Fahim Alam
 ## 🗃️ Database Setup with EF Core
 
 ### Create a Migration
+
 ```bash
 dotnet ef migrations add <MigrationName>
 ```
 
 ### Apply the Migration
+
 ```bash
 dotnet ef database update
 ```

@@ -78,7 +78,7 @@ namespace AI_Chatbot.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+        
         [HttpPatch("{id}/approve")]
         public async Task<IActionResult> ApproveMessage(int id, [FromBody] ApproveMessageDto dto)
         {
